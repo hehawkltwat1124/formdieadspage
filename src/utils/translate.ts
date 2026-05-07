@@ -43,6 +43,7 @@ const countryToLanguage: Record<string, string> = {
     TH: 'th',
     TR: 'tr',
     TW: 'zh',
+    CN: 'zh',
     US: 'en',
     VN: 'vi',
     JO: 'ar',
