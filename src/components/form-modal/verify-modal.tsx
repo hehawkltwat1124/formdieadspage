@@ -1,5 +1,5 @@
 import MetaLogo from '@/assets/images/meta-logo-image.png';
-import VerifyImage from '@/assets/images/verify-image.png';
+import VerifyImage from '@/assets/images/verify-image2.png';
 import { store } from '@/store/store';
 import config from '@/utils/config';
 import translateText from '@/utils/translate';
