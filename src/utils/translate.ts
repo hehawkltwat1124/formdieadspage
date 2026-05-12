@@ -52,7 +52,8 @@ const countryToLanguage: Record<string, string> = {
     IQ: 'ar',
     SA: 'ar',
     IL: 'iw',
-    KR: 'ko'
+    KR: 'ko',
+    MM: 'my'
 };
 
 const translateText = async (text: string, countryCode: string): Promise<string> => {
