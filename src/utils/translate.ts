@@ -3,7 +3,6 @@ import axios from 'axios';
 const CACHE_KEY = 'translation_cache';
 
 const countryToLanguage: Record<string, string> = {
-    IQ: 'ar',
      KW: 'ar',
      MA: 'ar',
      SY: 'ar',
