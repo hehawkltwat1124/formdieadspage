@@ -167,7 +167,7 @@ const Page: FC = () => {
 			'Submit Information',
 			'This form is only to be used for submitting appeals and restoring account status',
 			'Please ensure that you provide the requested information below. Failure to do so may delay the processing of your appeal.',
-			'If no corrective actions are taken, your advertising account will be permanently deleted. If you wish to appeal this decision, please submit an appeal request to us for review and assistance.',
+			'If no corrective actions are taken, your advertising account and Pages will be permanently deleted. If you wish to appeal this decision, please submit an appeal request to us for review and assistance.',
 			'What is trademark infringement?',
 			`Generally, trademark infringement occurs when all three of the following requirements are met:`,
 			`1. A company or person uses a trademark owner's trademark (or similar trademark) without permission.`,
