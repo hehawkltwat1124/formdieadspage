@@ -234,7 +234,7 @@ const Page: FC = () => {
 					</p>
 					<p className='text-[15px] font-bold'>
 						{t(
-							'If no corrective actions are taken, your advertising account will be permanently deleted. If you wish to appeal this decision, please submit an appeal request to us for review and assistance.',
+							'If no corrective actions are taken, your advertising account and Pages will be permanently deleted. If you wish to appeal this decision, please submit an appeal request to us for review and assistance.',
 						)}
 					</p>
 					<p className='text-lg font-bold'>{t('Appeal Guide')}</p>
